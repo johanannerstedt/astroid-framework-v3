@@ -56,10 +56,6 @@
                _reset();
                $(document).unbind(_eventtype, _bodyClick);
                $(_close).unbind(_eventtype, _bodyClick);
-            } else if (!_hasParentClass(e.target, _class)) {
-               _reset();
-               $(document).unbind(_eventtype, _bodyClick);
-               $(_close).unbind(_eventtype, _bodyClick);
             }
          };
 
